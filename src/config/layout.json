@@ -1,0 +1,36 @@
+{
+  "cards": {
+    "default": "layout-01",
+    "layout-01": {
+      "min": 0,
+      "max": 375
+    },
+    "layout-02": {
+      "min": 375,
+      "max": 768
+    },
+    "layout-03": {
+      "min": 768,
+      "max": 1024
+    },
+    "layout-04": {
+      "min": 1024,
+      "max": 1440
+    },
+    "layout-05": {
+      "min": 1440,
+      "max": 0
+    }
+  },
+  "bundles": {
+    "default": "layout-even",
+    "layout-single": {
+      "min": 0,
+      "max": 2
+    },
+    "layout-odd": {
+      "min": 3,
+      "max": 4
+    }
+  }
+}
